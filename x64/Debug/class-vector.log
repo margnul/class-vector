@@ -1,2 +1,5 @@
 ﻿  main.cpp
+  vect.cpp
+D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\span(13): warning STL4038: The contents of <span> are available only with C++20 or later.
+  Создание кода...
   class-vector.vcxproj -> C:\Users\ivanm\source\repos\github\class-vector\x64\Debug\class-vector.exe
