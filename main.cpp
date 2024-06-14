@@ -2,7 +2,7 @@
 
 
 int main() {
-	printf("pencil");
+	printf("%d", sizeof(long long int));
 
 	return 0;
 }
