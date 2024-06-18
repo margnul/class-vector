@@ -1,4 +1,12 @@
 ﻿  main.cpp
-C:\Users\ivanm\source\repos\github\class-vector\main.cpp(5,9): warning C4477: "printf": в строке форматирования "%d" требуется аргумент типа "int", но вариативный аргумент "1" имеет тип "size_t"
-C:\Users\ivanm\source\repos\github\class-vector\main.cpp(5,9): message : рекомендуется использовать "%zd" в строке форматирования
-  class-vector.vcxproj -> C:\Users\ivanm\source\repos\github\class-vector\x64\Debug\class-vector.exe
+C:\Users\ivanm\source\repos\github\class-vector\vect.h(99,22): error C2561: vect<int>::pop_back: функция должна возвращать значение
+C:\Users\ivanm\source\repos\github\class-vector\vect.h(98,16): message : см. объявление "vect<int>::pop_back"
+C:\Users\ivanm\source\repos\github\class-vector\vect.h(98,16): message : во время компиляции функции-члена класс шаблон "ClassDataType vect<ClassDataType>::pop_back(void)"
+          with
+          [
+              ClassDataType=int
+          ]
+C:\Users\ivanm\source\repos\github\class-vector\main.cpp(15,12): message : см. первую ссылку на "vect<int>::pop_back" в "main"
+C:\Users\ivanm\source\repos\github\class-vector\main.cpp(9,15): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "vect<int>"
+  vect.cpp
+  Создание кода...
